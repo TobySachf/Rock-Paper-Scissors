@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors Tutorial</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <section id="main-section">
+        <div class="container">
+            <div class="card shadow-lg">
+                <div class="d-flex bg-header pt-1 pb-1">
+                    <div class="div-size-test">
+                        <span class="dot-red"></span>
+                        <span class="dot-yellow"></span>
+                        <span class="dot-green"></span>
+                    </div>
+                    <div class="ml-1">
+                        <a class="">
+                            <i class="fa-solid fa-folder">  my-games</i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <a class="ml-1 text-white no-underline">Last login: <span id="display-date"></span></a><br>
+                    <a class="ml-1 text-white no-underline">user@MY-GAMES ~ %</a>
+                </div>
+                <div>
+                    <h1 class="text-white text-center mt-4 mb-2 font-weight-bold">Rock Paper Scissors</h1>
+                    <div class="ml-2 mr-2">
+                        <h4 class="text-white">Computer Choice: <span id="computer-choice"></span></h4>
+                        <h4 class="text-white">Your Choice: <span id="user-choice"></span></h4>
+                        <h4 class="text-white">Result: <span id="result"></span></h4>
+                        <div class="row text-center mt-4 mb-4">
+                            <div class="col">
+                                <button type="button" id="rock" class="btn btn-success ">rock</button>
+                            </div>
+                            <div class="col">
+                                <button type="button" id="paper" class="btn btn-warning">paper</button>
+                            </div>
+                            <div class="col">
+                                <button type="button" id="scissor" class="btn btn-danger">scissor</button>
+                            </div>
+                        </div>
+                        <div class="text-white text-center">
+                            <div>
+                                <h5>Computer Score: <span id="computer-score">0</span></h5>
+                            </div>
+                            <div>
+                                <h5>Player Score: <span id="player-score">0</span></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="app.js" charset="UTF-8"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>

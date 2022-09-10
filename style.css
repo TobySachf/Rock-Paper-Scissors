@@ -1,0 +1,117 @@
+@font-face {
+    font-family: arcade;
+    src: url(arcade.ttf);
+}
+
+h1{
+    font-size: 22px;
+    font-family: arcade;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(99,255,0,1) 35%, rgba(0,69,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#main-section {
+    background: #333533;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: #343a40;
+    min-height: 240px;
+    min-width: 480px;
+    border-radius: 32px;
+}
+
+.btn {
+    min-width: 100px;
+    border-radius: 10000px;
+}
+
+.bg-header {
+    background: #212529;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+
+}
+
+.div-size-test{
+
+}
+
+.ml-1 {
+    margin-left: 1rem;
+}
+
+.ml-2 {
+    margin-left: 3rem;
+}
+
+.mr-2 {
+    margin-right: 3rem;
+}
+
+.ml-auto {
+    margin-left: auto; !important;
+}
+
+.mr-auto {
+    margin-right: auto; !important;
+}
+
+.text-header {
+    line-height: 12px;
+    size: 12px;
+    text-align: center;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.text-green {
+    color: #63ff00;
+}
+
+.text-red {
+    color: #ff0000;
+}
+
+.dot-red {
+    height: 12px;
+    width: 12px;
+    margin-left: 12px;
+    background-color: #ee4051;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot-yellow {
+    height: 12px;
+    width: 12px;
+    background-color: #eac30b;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 4px;
+}
+
+.dot-green {
+    height: 12px;
+    width: 12px;
+    background-color: #15ce1f;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 4px;
+}
+
+.no-underline {
+    text-decoration: none;
+    font-size: 12px;
+}
